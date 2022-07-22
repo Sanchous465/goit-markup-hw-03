@@ -53,6 +53,7 @@ body{
     background-color: var(--primary-white-color);
     padding-top: 24px;
     padding-bottom: 25px;
+    border: 1px solid #ECECEC;
 }
 
 .header-menu-list{
@@ -170,8 +171,9 @@ letter-spacing: 0.06em;
 text-transform: uppercase;
 
 color: var(--primary-white-color);
-padding-left: 252px;
-padding-right: 252px;
+max-width: 696px;
+margin-left: auto;
+margin-right: auto;
 margin-bottom: 40px;
 }
 
@@ -195,9 +197,9 @@ min-width: 200;
 
 /*----------------------QUALITY----------------------*/
 
-.quality-section{
+/* .quality-section{
     background-color: #E5E5E5;
-}
+} */
 
 .quality-section{
     padding-top: 94px;
@@ -229,13 +231,14 @@ line-height: calc(24/14);
 letter-spacing: 0.03em;
 
 color: var(--primary-text-color);
+width: 270px;
 }
 
 /*----------------------OCCUPATION----------------------*/
 
-.occupation-section{
+/* .occupation-section{
     background-color: #E5E5E5;
-}
+} */
 
 .occupation-section{
     padding-bottom: 94px;
@@ -272,6 +275,13 @@ margin-bottom: 50px;
     padding-top: 94px;
 }
 
+.team-container{
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+
+
 .team-section-list{
     display: flex;
 }
@@ -299,7 +309,6 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: var(--primary-title-color);
-margin-top: 30px;
 margin-bottom: 10px;
 }
 
@@ -310,7 +319,6 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: var(--primary-text-color);
-margin-bottom: 124px;
 }
 
 /*----------------------FOOTER----------------------*/
@@ -322,6 +330,15 @@ margin-bottom: 124px;
 .footer{
     padding-bottom: 60px;
     padding-top: 60px;
+}
+
+.link_1-container{
+    margin-top: 20px;
+}
+
+.link-mailto-container{
+    margin-top: 9px;
+    margin-bottom: 9px;
 }
 
 .footer-logo{
@@ -341,7 +358,6 @@ color: var(--accent-color);
 
 .footer-logo{
     text-decoration: none;
-    margin-bottom: 20px;
 }
 
 .footer-link{
@@ -355,7 +371,6 @@ color: var(--primary-white-color);
 .footer-link{
     text-decoration: none;
     font-style: normal;
-    margin-bottom: 9px;
 }
 
 .footer-mailto{
@@ -369,7 +384,6 @@ color: rgba(255, 255, 255, 0.6);
 .footer-mailto{
     text-decoration: none;
     font-style: normal;
-    margin-bottom: 9px;
 }
 
 .footer-tel{
@@ -395,7 +409,7 @@ color: rgba(255, 255, 255, 0.6);
 .portfolio-btn-list{
     display: flex;
     margin-bottom: 50px;
-    margin-left: 370px;
+    justify-content: center;
 }
 
 .portfolio-btn-item:not(:last-child){
@@ -405,10 +419,7 @@ color: rgba(255, 255, 255, 0.6);
 .portfolio-list{
     display: flex; 
     flex-wrap: wrap;
-}
-
-.portfolio-item{
-    margin-right: 20px;
+    gap: 30px;
 }
 
 .portfolio-title{
@@ -430,6 +441,7 @@ letter-spacing: 0.03em;
 
 background-color: #F5F4FA;
 color: var(--primary-title-color);
+padding: 6px 22px;
 }
 
 .portfolio-btn:hover, .portfolio-btn:focus{
@@ -452,4 +464,9 @@ line-height: calc(30/16);
 letter-spacing: 0.03em;
 
 color: var(--primary-text-color);
+}
+
+.additional-container{
+    padding: 20px 24px;
+    border: 1px solid #EEEEEE;
 }
