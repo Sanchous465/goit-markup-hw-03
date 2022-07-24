@@ -402,8 +402,8 @@ color: rgba(255, 255, 255, 0.6);
 /*----------------------PORTFOLIO----------------------*/
 
 .portfolio-section{
-    margin-top: 100px;
-    margin-bottom: 114px;
+    padding-top: 100px;
+    padding-bottom: 114px;
 }
 
 .portfolio-btn-list{
@@ -423,12 +423,7 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .portfolio-title{
-    margin-top: 20px;
     margin-bottom: 4px;
-}
-
-.portfolio-text{
-    margin-bottom: 50px;
 }
 
 .portfolio-btn{
